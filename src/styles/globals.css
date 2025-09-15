@@ -2,16 +2,10 @@
 @plugin "@tailwindcss/typography";
 
 @layer base {
+  body {
+    @apply bg-neutral-50 text-neutral-800 dark:bg-neutral-700 dark:text-neutral-50;
+  }
   a {
     @apply hover:underline hover:underline-offset-2 hover:decoration-green-500;
-  }
-  td {
-    @apply pt-4 pb-6;
-  }
-  th {
-    @apply py-4;
-  }
-  img {
-    @apply border rounded-sm border-neutral-500;
   }
 }
